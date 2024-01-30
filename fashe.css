@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border border-box;
+}
+body{
+    overflow-x:hidden ;
+}
+
+.custom-shop:hover{
+    background-color: rgb(248, 244, 10) !important;
+    transition: transform 0.2s ease-in-out;
+    animation: dance 0.6s infinite;
+    
+}
+
+.custom-hover:hover{
+    background-color:  rgb(252, 97, 97) !important;
+ 
+    
+}
+
+@keyframes dance {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+
+.custom-u:hover{
+    /* background-color: rgb(255, 67, 67) !important; */
+    text-decoration: underline;
+    color:  rgb(252, 97, 97) !important;
+}
+.custom-i:hover{
+
+    color:  rgb(252, 97, 97) !important;
+    
+}
+
+.custom-hover{
+    background-color: #ced1d3 !important;
+    color: black !important; 
+}
+
+.custom-g{
+
+    text-decoration: line-through !important;
+}
+
+.custom-br{
+
+    border-right:2px solid rgb(117, 117, 117) !important;
+}
+.custom-bl{
+    border-left:2px solid rgb(117, 117, 117) !important;
+}
+
+.custom-s:hover{
+    
+    color:  rgb(252, 97, 97) !important;
+}
+
